@@ -4,7 +4,7 @@ import { lazy, Suspense, useEffect } from "react";
 import ProgressBar from "./components/wrapper/ProgressBar";
 import nProgress from "nprogress";
 
-import { NotificationContext } from "./context/notificationContext";
+import { NotificationContext } from "./context/NotificationContext";
 import { useContext } from "react";
 import { AnimatePresence } from "motion/react";
 

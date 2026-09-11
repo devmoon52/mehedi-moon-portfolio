@@ -3,7 +3,7 @@ import "./index.css";
 import App from "./App.jsx";
 import { HelmetProvider } from "react-helmet-async";
 import { useContext } from "react";
-import NotificationProvider from "./context/notificationContext.jsx";
+import NotificationProvider from "./context/NotificationContext.jsx";
 
 // import fonts
 import "@fontsource/poppins/300.css";

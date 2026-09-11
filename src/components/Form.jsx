@@ -6,7 +6,7 @@ import emailjs from "@emailjs/browser";
 import EmojiPicker from "emoji-picker-react";
 
 import { useContext, useEffect, useState } from "react";
-import { NotificationContext } from "../context/notificationContext";
+import { NotificationContext } from "../context/NotificationContext";
 const SERVICE_ID = import.meta.env.VITE_SERVICE_ID;
 const TEMPLATE_ID = import.meta.env.VITE_TEMPLATE_ID;
 const PUBLIC_KEY = import.meta.env.VITE_PUBLIC_KEY;
