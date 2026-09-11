@@ -1,0 +1,62 @@
+@import "tailwindcss";
+
+body {
+    background-color: #222831;
+    color: white;
+    font-family: "Poppins", sans-serif;
+    font-size-adjust: 0.55;
+}
+
+#nprogress .bar {
+  background: #10c9b3 !important;
+  z-index: 9999 !important;
+}
+
+/* scroll hide */
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+.no-scrollbar {
+  -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none;  /* Firefox */
+}
+
+/* custom classes */
+.section {
+  background-color: #31363F;
+}
+.bodyBG {
+  background-color: #222831;
+}
+.footerBG {
+  background-color: #3B414B;
+}
+
+@media (max-width: 768px) {
+  .secMD {
+    background: #31363F;
+  }
+}
+
+.custom-scroll::-webkit-scrollbar {
+  width: 6px;
+}
+
+/* scrollbar design */
+::-webkit-scrollbar {
+  width: 8px;
+}
+::-webkit-scrollbar-track {
+  background: #005555;
+}
+::-webkit-scrollbar-thumb {
+  background: #07e4e4;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #00a0a0;
+}
+
+/* selection design */
+::selection {
+  background-color: #07658a91;
+}
