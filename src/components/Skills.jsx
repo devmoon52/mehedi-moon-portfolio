@@ -70,7 +70,7 @@ const Skills = () => {
           <div className="ml-4 text-sm">
             <div>
               <p>
-                1+ years of experience building scalable and secure web
+                2+ years of experience building scalable and secure web
                 applications.
               </p>
               <p>
