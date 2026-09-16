@@ -71,7 +71,7 @@ const StatsSection = () => {
         className="md:w-100 w-full shrink sm:shrink-0 grid grid-cols-2 gap-10"
       >
         <motion.div variants={childVar}>
-          <h2 className="sm:text-3xl text-xl font-semibold sm:text-nowrap">1+ Years</h2>
+          <h2 className="sm:text-3xl text-xl font-semibold sm:text-nowrap">2+ Years</h2>
           <p className="sm:text-[16px] text-sm text-gray-300">Of Experience</p>
         </motion.div>
         <motion.div variants={childVar}>
